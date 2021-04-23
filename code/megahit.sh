@@ -3,7 +3,7 @@
 #SBATCH -M snowy
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 08:00:00
+#SBATCH -t 06:00:00
 #SBATCH -J DNA_assembly
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user tomas.cumlin.1485@student.uu.se
