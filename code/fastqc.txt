@@ -1,0 +1,22 @@
+salloc -A g2021012 -M snowy -p core -n 2 -t 00:00:00
+
+module load bioinfo-tools FastQC
+
+fastqc SRR4342137.1.fastq.gz  
+
+fastqc SRR4342137.2.fastq.gz  
+
+fastqc SRR4342139.1.fastq.gz  
+
+fastqc SRR4342139.2.fastq.gz
+
+
+fastqc SRR4342129_1.paired.trimmed_fastqc.gz
+
+fastqc SRR4342129_2.paired.trimmed_fastqc.gz
+
+fastqc SRR4342133_1.paired.trimmed_fastqc.gz
+
+fastqc SRR4342133_2.paired.trimmed_fastqc.gz
+
+
