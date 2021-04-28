@@ -1,0 +1,586 @@
+[16:07:43] This is prokka 1.14.6
+[16:07:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:07:43] Homepage is https://github.com/tseemann/prokka
+[16:07:43] Local time is Wed Apr 28 16:07:43 2021
+[16:07:43] You are tomasc
+[16:07:43] Operating system is linux
+[16:07:43] You have BioPerl 1.007001
+[16:07:43] System has 16 cores.
+[16:07:43] Will use maximum of 8 cores.
+[16:07:43] Annotating as >>> Bacteria <<<
+[16:07:43] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_2.fa' contents.
+[16:07:43] Setting --locustag AGHAALMF from MD5 a01aa56f043d4183fb5b80d80a5be4aa
+[16:07:43] Creating new output folder: /home/tomasc/genome_analysis_2021/analysis/prokka
+[16:07:43] Running: mkdir -p \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka
+[16:07:43] Using filename prefix: binning_2.XXX
+[16:07:43] Setting HMMER_NCPU=1
+[16:07:43] Writing log to: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.log
+[16:07:43] Command: /sw/bioinfo/prokka/1.45-5b58020/snowy/bin/prokka --outdir /home/tomasc/genome_analysis_2021/analysis/prokka --metagenome --prefix binning_2 /home/tomasc/genome_analysis_2021/analysis/binning/binning_2.fa
+[16:07:43] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux
+[16:07:43] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/../common
+[16:07:43] Appending to PATH: /sw/bioinfo/prokka/1.45-5b58020/rackham/bin
+[16:07:43] Looking for 'aragorn' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/aragorn
+[16:07:43] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[16:07:43] Looking for 'barrnap' - found /sw/bioinfo/barrnap/0.8/snowy/bin/barrnap
+[16:07:43] Determined barrnap version is 000008 from 'barrnap 0.8'
+[16:07:43] Looking for 'blastp' - found /sw/bioinfo/blast/2.11.0+/snowy/bin/blastp
+[16:07:44] Determined blastp version is 002011 from 'blastp: 2.11.0+'
+[16:07:44] Looking for 'cmpress' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmpress
+[16:07:44] Determined cmpress version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[16:07:44] Looking for 'cmscan' - found /sw/bioinfo/prokka/1.45-5b58020/rackham/bin/../binaries/linux/cmscan
+[16:07:44] Determined cmscan version is 001001 from '# INFERNAL 1.1.2 (July 2016)'
+[16:07:44] Looking for 'egrep' - found /usr/bin/egrep
+[16:07:44] Looking for 'find' - found /usr/bin/find
+[16:07:44] Looking for 'grep' - found /usr/bin/grep
+[16:07:44] Looking for 'hmmpress' - found /sw/apps/bioinfo/hmmer/3.1b2/snowy/bin/hmmpress
+[16:07:44] Determined hmmpress version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[16:07:44] Looking for 'hmmscan' - found /sw/apps/bioinfo/hmmer/3.1b2/snowy/bin/hmmscan
+[16:07:44] Determined hmmscan version is 003001 from '# HMMER 3.1b2 (February 2015); http://hmmer.org/'
+[16:07:44] Looking for 'java' - found /usr/bin/java
+[16:07:44] Looking for 'makeblastdb' - found /sw/bioinfo/blast/2.11.0+/snowy/bin/makeblastdb
+[16:07:45] Determined makeblastdb version is 002011 from 'makeblastdb: 2.11.0+'
+[16:07:45] Looking for 'minced' - found /sw/apps/bioinfo/minced/0.2.0/snowy/minced
+[16:07:45] Determined minced version is 002000 from 'minced 0.2.0'
+[16:07:45] Looking for 'parallel' - found /sw/parallel/gnuparallel/20170122/snowy/bin/parallel
+[16:07:46] Determined parallel version is 20170122 from 'GNU parallel 20170122'
+[16:07:46] Looking for 'prodigal' - found /sw/apps/bioinfo/prodigal/2.6.3/snowy/bin/prodigal
+[16:07:46] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[16:07:46] Looking for 'prokka-genbank_to_fasta_db' - found /sw/bioinfo/prokka/1.45-5b58020/snowy/bin/prokka-genbank_to_fasta_db
+[16:07:46] Looking for 'sed' - found /usr/bin/sed
+[16:07:46] Looking for 'signalp' - found /sw/bioinfo/SignalP/4.1f/snowy/signalp
+[16:07:46] Determined signalp version is 004001 from '4.1 4569324'
+[16:07:46] Looking for 'tbl2asn' - found /sw/bioinfo/tbl2asn/25.8/snowy/tbl2asn
+[16:07:46] Determined tbl2asn version is 025008 from 'tbl2asn 25.8   arguments:'
+[16:07:46] Using genetic code table 11.
+[16:07:46] Loading and checking input file: /home/tomasc/genome_analysis_2021/analysis/binning/binning_2.fa
+[16:07:46] Wrote 221 contigs totalling 1904290 bp.
+[16:07:46] Predicting tRNAs and tmRNAs
+[16:07:46] Running: aragorn -l -gc11  -w \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.fna
+[16:07:47] 1 tRNA-Asn [4166,4239] 34 (gtt)
+[16:07:47] 2 tRNA-Met [4319,4392] 34 (cat)
+[16:07:47] 1 tRNA-Ala c[12707,12780] 34 (ggc)
+[16:07:47] 1 tRNA-Arg [1265,1339] 35 (tct)
+[16:07:47] 1 tRNA-Leu [5469,5553] 35 (cag)
+[16:07:47] 1 tRNA-Ile c[434,508] 35 (gat)
+[16:07:47] 1 tRNA-Ser [11828,11918] 35 (cga)
+[16:07:47] 2 tRNA-Ser c[15460,15545] 35 (gga)
+[16:07:47] 3 tRNA-Pro [36476,36550] 35 (cgg)
+[16:07:47] 4 tRNA-SeC c[54017,54110] 36 (tca)
+[16:07:47] 1 tRNA-Tyr [5208,5291] 35 (gta)
+[16:07:47] 2 tRNA-Thr [5429,5502] 34 (ggt)
+[16:07:47] 3 tRNA-Met [5526,5600] 35 (cat)
+[16:07:47] 4 tRNA-Trp [6226,6299] 34 (cca)
+[16:07:47] 1 tRNA-Arg c[1917,1991] 35 (cct)
+[16:07:47] 1 tRNA-Ala c[371,445] 35 (cgc)
+[16:07:47] 1 tRNA-Gln c[14681,14754] 34 (ttg)
+[16:07:47] 1 tRNA-Leu c[15215,15299] 35 (caa)
+[16:07:47] 1 tRNA-Leu c[11656,11740] 35 (tag)
+[16:07:47] 1 tRNA-Leu [5125,5210] 35 (gag)
+[16:07:47] 1 tRNA-Thr [9392,9465] 34 (tgt)
+[16:07:47] 1 tRNA-Gly [4462,4534] 34 (tcc)
+[16:07:47] 1 tRNA-Arg c[4788,4863] 35 (cct)
+[16:07:47] 1 tRNA-Lys c[2091,2165] 35 (ttt)
+[16:07:47] 1 tRNA-Arg c[3941,4015] 35 (acg)
+[16:07:47] 2 tRNA-Ser c[4093,4185] 37 (gct)
+[16:07:47] 3 tRNA-Ser [4278,4365] 35 (tga)
+[16:07:47] 1 tRNA-Gln [13224,13296] 34 (ctg)
+[16:07:47] 2 tRNA-Glu [13322,13395] 35 (ctc)
+[16:07:47] 1 tRNA-Arg [48193,48265] 34 (ccg)
+[16:07:47] 1 tRNA-Val c[13663,13737] 35 (tac)
+[16:07:47] 1 tmRNA [3769,4149] 127,168 DRESSGPAMIPGA*
+[16:07:47] Found 32 tRNAs
+[16:07:47] Predicting Ribosomal RNAs
+[16:07:47] Running Barrnap with 8 threads
+[16:07:49] 1 k105_27894 1118 5S ribosomal RNA
+[16:07:49] 2 k105_39363 2020 16S ribosomal RNA (partial)
+[16:07:49] 3 k105_39363 4155 23S ribosomal RNA (partial)
+[16:07:49] 4 k105_85561 694 5S ribosomal RNA (partial)
+[16:07:49] Found 4 rRNAs
+[16:07:49] Skipping ncRNA search, enable with --rfam if desired.
+[16:07:49] Total of 35 tRNA + rRNA features
+[16:07:49] Searching for CRISPR repeats
+[16:07:50] Found 0 CRISPRs
+[16:07:50] Predicting coding sequences
+[16:07:50] Contigs total 1904290 bp, so using meta mode
+[16:07:50] Running: prodigal -i \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.fna -c -m -g 11 -p meta -f sco -q
+[16:07:51] Excluding CDS which overlaps existing RNA (tRNA) at k105_228167:5402..8134 on + strand
+[16:07:56] Excluding CDS which overlaps existing RNA (tRNA) at k105_217130:9435..9779 on + strand
+[16:07:57] Excluding CDS which overlaps existing RNA (rRNA) at k105_39363:2659..2859 on + strand
+[16:07:57] Excluding CDS which overlaps existing RNA (rRNA) at k105_39363:4087..4239 on + strand
+[16:07:57] Excluding CDS which overlaps existing RNA (rRNA) at k105_39363:4815..4988 on + strand
+[16:07:58] Excluding CDS which overlaps existing RNA (rRNA) at k105_85561:657..881 on - strand
+[16:07:59] Found 1840 CDS
+[16:07:59] Connecting features back to sequences
+[16:07:59] Not using genus-specific database. Try --usegenus to enable it.
+[16:07:59] Annotating CDS, please be patient.
+[16:07:59] Will use 8 CPUs for similarity searching.
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_338914]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_347799]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:08:00] There are still 1840 unannotated CDS left (started with 1840)
+[16:08:00] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS with 8 CPUs
+[16:08:00] Running: cat \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.IS\.tmp\.27142\.faa | parallel --gnu --plain -j 8 --block 35279 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.IS\.tmp\.27142\.blast 2> /dev/null
+[16:08:27] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.IS.tmp.27142.faa
+[16:08:27] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.IS.tmp.27142.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_338914]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_347799]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:08:28] There are still 1840 unannotated CDS left (started with 1840)
+[16:08:28] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR with 8 CPUs
+[16:08:28] Running: cat \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.AMR\.tmp\.27142\.faa | parallel --gnu --plain -j 8 --block 35279 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.AMR\.tmp\.27142\.blast 2> /dev/null
+[16:08:51] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.AMR.tmp.27142.faa
+[16:08:51] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.AMR.tmp.27142.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_338914]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_347799]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:08:52] There are still 1840 unannotated CDS left (started with 1840)
+[16:08:52] Will use blast to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot with 8 CPUs
+[16:08:52] Running: cat \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.sprot\.tmp\.27142\.faa | parallel --gnu --plain -j 8 --block 35279 --recstart '>' --pipe blastp -query - -db /sw/bioinfo/prokka/1.45-5b58020/rackham/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.sprot\.tmp\.27142\.blast 2> /dev/null
+[16:10:46] Modify product: Phosphate-specific transport system accessory protein PhoU homolog 1 => Phosphate-specific transport system accessory protein PhoU 
+[16:10:46] Modify product: Uncharacterized ABC transporter ATP-binding protein YlmA => putative ABC transporter ATP-binding protein YlmA
+[16:10:46] Modify product: Multidrug efflux ATP-binding/permease protein BCG_0231 => Multidrug efflux ATP-binding/permease protein
+[16:10:46] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[16:10:46] Modify product: UPF0053 protein Rv1842c => hypothetical protein
+[16:10:46] Modify product: Uncharacterized protein Rv1841c => putative protein
+[16:10:46] Modify product: Probable transcriptional regulatory protein MSMEG_2940/MSMEI_2866 => putative transcriptional regulatory protein/MSMEI_2866
+[16:10:46] Modify product: Uncharacterized protein Rv2047c => putative protein
+[16:10:46] Modify product: Uncharacterized SURF1-like protein Rv2235 => putative SURF1-like protein
+[16:10:46] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[16:10:46] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[16:10:46] Modify product: Probable 8-oxo-dGTP diphosphatase 1 => putative 8-oxo-dGTP diphosphatase 1
+[16:10:46] Modify product: Uncharacterized protein Rv0959 => putative protein
+[16:10:47] Modify product: Uncharacterized protein Rv1367c => putative protein
+[16:10:47] Modify product: UPF0394 membrane protein XF_0766 => hypothetical protein
+[16:10:47] Modify product: Uncharacterized protein Rv0953c => putative protein
+[16:10:47] Modify product: Uncharacterized protein Rv2910c => putative protein
+[16:10:47] Modify product: Uncharacterized oxidoreductase Rv0927c => putative oxidoreductase
+[16:10:47] Modify product: Uncharacterized oxidoreductase Rv1144 => putative oxidoreductase
+[16:10:47] Modify product: Uncharacterized ABC transporter ATP-binding protein YheS => putative ABC transporter ATP-binding protein YheS
+[16:10:47] Modify product: Probable enoyl-CoA hydratase echA8 => putative enoyl-CoA hydratase echA8
+[16:10:47] Modify product: Uncharacterized protein SA1069 => putative protein
+[16:10:47] Modify product: Putative multidrug export ATP-binding/permease protein SAV1866 => Putative multidrug export ATP-binding/permease protein
+[16:10:47] Modify product: Uncharacterized ABC transporter ATP-binding protein TM_0288 => putative ABC transporter ATP-binding protein
+[16:10:47] Modify product: Probable M18 family aminopeptidase 2 => putative M18 family aminopeptidase 2
+[16:10:47] Modify product: Putative short-chain type dehydrogenase/reductase Rv0148 => Putative short-chain type dehydrogenase/reductase
+[16:10:47] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[16:10:47] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[16:10:47] Modify product: Probable polyketide biosynthesis zinc-dependent hydrolase BaeB => putative polyketide biosynthesis zinc-dependent hydrolase BaeB
+[16:10:47] Modify product: Uncharacterized ABC transporter ATP-binding protein YknY => putative ABC transporter ATP-binding protein YknY
+[16:10:47] Modify product: Uncharacterized ABC transporter permease YknZ => putative ABC transporter permease YknZ
+[16:10:47] Modify product: Uncharacterized zinc-type alcohol dehydrogenase-like protein YdjJ => putative zinc-type alcohol dehydrogenase-like protein YdjJ
+[16:10:47] Modify product: Thioredoxin-like reductase Rv2466c => Thioredoxin-like reductase
+[16:10:47] Modify product: Uncharacterized oxidoreductase Rv1350 => putative oxidoreductase
+[16:10:47] Modify product: Probable iron export permease protein FetB => putative iron export permease protein FetB
+[16:10:47] Modify product: Probable acetyl-CoA acetyltransferase => putative acetyl-CoA acetyltransferase
+[16:10:47] Modify product: F420H(2)-dependent reductase Rv1155 => F420H(2)-dependent reductase
+[16:10:47] Modify product: Uncharacterized protein Rv3633 => putative protein
+[16:10:47] Modify product: Putative anti-sigma factor antagonist TM_1442 => Putative anti-sigma factor antagonist
+[16:10:47] Modify product: Protein Mb2227c => Protein
+[16:10:47] Modify product: UPF0234 protein Rv0566c => hypothetical protein
+[16:10:47] Modify product: Putative peroxiredoxin Rv1608c => Putative peroxiredoxin
+[16:10:47] Modify product: Uncharacterized protein Rv2895c => putative protein
+[16:10:47] Modify product: Putative heme-dependent peroxidase SA0544 => Putative heme-dependent peroxidase
+[16:10:47] Modify product: Probable enoyl-CoA hydratase 1 => putative enoyl-CoA hydratase 1
+[16:10:47] Modify product: Phosphate-specific transport system accessory protein PhoU homolog => Phosphate-specific transport system accessory protein PhoU 
+[16:10:47] Modify product: Uncharacterized HIT-like protein Rv0759c => putative HIT-like protein
+[16:10:47] Modify product: Uncharacterized HTH-type transcriptional regulator Rv1828 => putative HTH-type transcriptional regulator
+[16:10:47] Modify product: Uncharacterized protein Rv1829 => putative protein
+[16:10:47] Modify product: Probable oxidoreductase EphD => putative oxidoreductase EphD
+[16:10:47] Modify product: Probable glycine dehydrogenase (decarboxylating) => putative glycine dehydrogenase (decarboxylating)
+[16:10:47] Modify product: Probable cytochrome c oxidase subunit 1 => putative cytochrome c oxidase subunit 1
+[16:10:47] Modify product: Uncharacterized monooxygenase Rv0892 => putative monooxygenase
+[16:10:47] Modify product: Uncharacterized metal-dependent hydrolase YcfH => putative metal-dependent hydrolase YcfH
+[16:10:47] Modify product: Probable transcriptional regulatory protein pdtaR => putative transcriptional regulatory protein pdtaR
+[16:10:48] Modify product: Probable enoyl-CoA hydratase 1 => putative enoyl-CoA hydratase 1
+[16:10:48] Modify product: Uncharacterized protein Rv0738 => putative protein
+[16:10:48] Modify product: Uncharacterized aminopeptidase Rv1333 => putative aminopeptidase
+[16:10:48] Modify product: Probable membrane transporter protein YfcA => putative membrane transporter protein YfcA
+[16:10:48] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:48] Modify product: Uncharacterized FAD-linked oxidoreductase Rv2280 => putative FAD-linked oxidoreductase
+[16:10:48] Modify product: Uncharacterized protein Rv1339 => putative protein
+[16:10:48] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
+[16:10:48] Modify product: Nucleotide-binding protein Rv1421 => Nucleotide-binding protein
+[16:10:48] Modify product: Probable sensor histidine kinase pdtaS => putative sensor histidine kinase pdtaS
+[16:10:48] Modify product: Putative DNA-binding protein Rv0500A => Putative DNA-binding proteinA
+[16:10:48] Modify product: Uncharacterized carboxylesterase nap => putative carboxylesterase nap
+[16:10:48] Modify product: Uncharacterized protein Rv2229c => putative protein
+[16:10:48] Modify product: Uncharacterized protein Rv1360 => putative protein
+[16:10:48] Modify product: Putative glutamine amidotransferase Rv2859c => Putative glutamine amidotransferase
+[16:10:48] Modify product: Probable multidrug resistance protein EmrY => putative multidrug resistance protein EmrY
+[16:10:48] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:48] Modify product: Acetyltransferase PA3944 => Acetyltransferase
+[16:10:48] Modify product: Probable GTPase Rv1496 => putative GTPase
+[16:10:48] Modify product: Probable methylmalonyl-CoA mutase large subunit => putative methylmalonyl-CoA mutase large subunit
+[16:10:48] Modify product: Probable xanthine dehydrogenase subunit D => putative xanthine dehydrogenase subunit D
+[16:10:48] Modify product: Probable xanthine dehydrogenase subunit D => putative xanthine dehydrogenase subunit D
+[16:10:48] Modify product: Probable glycerol-3-phosphate dehydrogenase 2 [NAD(P)+] => putative glycerol-3-phosphate dehydrogenase 2 [NAD(P)+]
+[16:10:48] Modify product: UPF0182 protein MSMEG_1959/MSMEI_1915 => hypothetical protein
+[16:10:48] Modify product: Uncharacterized protein Rv0036c => putative protein
+[16:10:48] Modify product: UPF0301 protein Rv0038 => hypothetical protein
+[16:10:48] Modify product: Uncharacterized protein Rv0953c => putative protein
+[16:10:48] Modify product: Uncharacterized protein Rv0738 => putative protein
+[16:10:48] Modify product: UPF0053 protein Rv2366c => hypothetical protein
+[16:10:48] Modify product: Uncharacterized protein Rv2913c => putative protein
+[16:10:48] Modify product: Uncharacterized protein Rv2910c => putative protein
+[16:10:48] Modify product: Uncharacterized oxidoreductase Rv1350 => putative oxidoreductase
+[16:10:48] Modify product: Probable enoyl-CoA hydratase echA8 => putative enoyl-CoA hydratase echA8
+[16:10:48] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:48] Modify product: Sulfurtransferase Alvin_2599 => Sulfurtransferase
+[16:10:48] Modify product: Uncharacterized HTH-type transcriptional regulator Rv3095 => putative HTH-type transcriptional regulator
+[16:10:48] Modify product: Uncharacterized protein Rv2913c => putative protein
+[16:10:48] Modify product: Uncharacterized oxidoreductase Rv0769 => putative oxidoreductase
+[16:10:48] Modify product: Uncharacterized protein Rv2581c => putative protein
+[16:10:48] Modify product: Uncharacterized protein Rv0088 => putative protein
+[16:10:48] Modify product: Epimerase family protein Rv2216 => Epimerase family protein
+[16:10:48] Modify product: Probable dipeptidase PepE => putative dipeptidase PepE
+[16:10:48] Modify product: Uncharacterized protein Rv1360 => putative protein
+[16:10:48] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:48] Modify product: Putative cystathionine beta-synthase Rv1077 => Putative cystathionine beta-synthase
+[16:10:48] Modify product: Probable enoyl-CoA hydratase echA14 => putative enoyl-CoA hydratase echA14
+[16:10:48] Modify product: Probable tRNA-dihydrouridine synthase => putative tRNA-dihydrouridine synthase
+[16:10:48] Modify product: Uncharacterized protein Rv3633 => putative protein
+[16:10:49] Modify product: Uncharacterized oxidoreductase Rv0927c => putative oxidoreductase
+[16:10:49] Modify product: Protease HtpX homolog => Protease HtpX 
+[16:10:49] Modify product: Probable enoyl-CoA hydratase 1 => putative enoyl-CoA hydratase 1
+[16:10:49] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:49] Modify product: UPF0051 protein SA0778 => hypothetical protein
+[16:10:49] Modify product: UPF0051 protein Rv1462 => hypothetical protein
+[16:10:49] Modify product: Uncharacterized oxidoreductase Rv0927c => putative oxidoreductase
+[16:10:49] Modify product: Putative coenzyme F420-dependent oxidoreductase Rv3520c => Putative coenzyme F420-dependent oxidoreductase
+[16:10:49] Modify product: Uncharacterized oxidoreductase Rv1350 => putative oxidoreductase
+[16:10:49] Modify product: Putative short-chain type dehydrogenase/reductase Rv0148 => Putative short-chain type dehydrogenase/reductase
+[16:10:49] Modify product: UPF0073 inner membrane protein YqfA => hypothetical protein
+[16:10:49] Cleaned 114 /product names
+[16:10:49] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.sprot.tmp.27142.faa
+[16:10:49] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.sprot.tmp.27142.blast
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_338914]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [k105_347799]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:10:49] There are still 857 unannotated CDS left (started with 1840)
+[16:10:49] Will use hmmer3 to search against /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm with 8 CPUs
+[16:10:49] Running: cat \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.HAMAP\.hmm\.tmp\.27142\.faa | parallel --gnu --plain -j 8 --block 14402 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /sw/bioinfo/prokka/1.45-5b58020/rackham/db/hmm/HAMAP.hmm /dev/stdin > \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.HAMAP\.hmm\.tmp\.27142\.hmmer3 2> /dev/null
+[16:11:35] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[16:11:36] Modify product: Uncharacterized Nudix hydrolase NudL => putative Nudix hydrolase NudL
+[16:11:36] Cleaned 2 /product names
+[16:11:36] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.HAMAP.hmm.tmp.27142.faa
+[16:11:36] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.HAMAP.hmm.tmp.27142.hmmer3
+[16:11:36] Labelling remaining 686 proteins as 'hypothetical protein'
+[16:11:36] Possible /pseudo 'putative protein' at k105_90412 position 4578
+[16:11:36] Possible /pseudo 'Alpha-ketoglutarate-dependent taurine dioxygenase' at k105_250687 position 411
+[16:11:36] Possible /pseudo 'Glutamine synthetase' at k105_256329 position 49630
+[16:11:36] Possible /pseudo 'F420-dependent glucose-6-phosphate dehydrogenase' at k105_244208 position 2309
+[16:11:36] Possible /pseudo 'Putative fluoride ion transporter CrcB' at k105_247037 position 922
+[16:11:36] Possible /pseudo 'Short-chain-enoyl-CoA hydratase' at k105_88834 position 14524
+[16:11:36] Found 834 unique /gene codes.
+[16:11:36] Fixed 2 duplicate /gene - htpX_1 htpX_2
+[16:11:36] Fixed 2 duplicate /gene - trmH_1 trmH_2
+[16:11:36] Fixed 2 duplicate /gene - rplS_1 rplS_2
+[16:11:36] Fixed 3 duplicate /gene - fadA5_1 fadA5_2 fadA5_3
+[16:11:36] Fixed 2 duplicate /gene - mutB_1 mutB_2
+[16:11:36] Fixed 2 duplicate /gene - arnC_1 arnC_2
+[16:11:36] Fixed 2 duplicate /gene - frc_1 frc_2
+[16:11:36] Fixed 2 duplicate /gene - sepF_1 sepF_2
+[16:11:36] Fixed 3 duplicate /gene - acsA_1 acsA_2 acsA_3
+[16:11:36] Fixed 2 duplicate /gene - pccB_1 pccB_2
+[16:11:36] Fixed 2 duplicate /gene - plsY_1 plsY_2
+[16:11:36] Fixed 2 duplicate /gene - napA_1 napA_2
+[16:11:36] Fixed 2 duplicate /gene - carB_1 carB_2
+[16:11:36] Fixed 2 duplicate /gene - ndhK_1 ndhK_2
+[16:11:36] Fixed 7 duplicate /gene - lcfB_1 lcfB_2 lcfB_3 lcfB_4 lcfB_5 lcfB_6 lcfB_7
+[16:11:36] Fixed 3 duplicate /gene - menB_1 menB_2 menB_3
+[16:11:36] Fixed 2 duplicate /gene - glmU_1 glmU_2
+[16:11:36] Fixed 2 duplicate /gene - yjcS_1 yjcS_2
+[16:11:36] Fixed 2 duplicate /gene - fadJ_1 fadJ_2
+[16:11:36] Fixed 2 duplicate /gene - linX_1 linX_2
+[16:11:36] Fixed 2 duplicate /gene - sufC_1 sufC_2
+[16:11:36] Fixed 2 duplicate /gene - sufS_1 sufS_2
+[16:11:36] Fixed 2 duplicate /gene - menE_1 menE_2
+[16:11:36] Fixed 3 duplicate /gene - lptB_1 lptB_2 lptB_3
+[16:11:36] Fixed 2 duplicate /gene - prdB_1 prdB_2
+[16:11:36] Fixed 3 duplicate /gene - nuoJ_1 nuoJ_2 nuoJ_3
+[16:11:36] Fixed 3 duplicate /gene - whiB_1 whiB_2 whiB_3
+[16:11:36] Fixed 3 duplicate /gene - paaF_1 paaF_2 paaF_3
+[16:11:36] Fixed 2 duplicate /gene - mmgC_1 mmgC_2
+[16:11:36] Fixed 2 duplicate /gene - mutM_1 mutM_2
+[16:11:36] Fixed 2 duplicate /gene - pgsA_1 pgsA_2
+[16:11:36] Fixed 4 duplicate /gene - tauD_1 tauD_2 tauD_3 tauD_4
+[16:11:36] Fixed 2 duplicate /gene - clpP_1 clpP_2
+[16:11:36] Fixed 3 duplicate /gene - limA_1 limA_2 limA_3
+[16:11:36] Fixed 2 duplicate /gene - trmD_1 trmD_2
+[16:11:36] Fixed 2 duplicate /gene - gpmA_1 gpmA_2
+[16:11:36] Fixed 3 duplicate /gene - COQ5_1 COQ5_2 COQ5_3
+[16:11:36] Fixed 2 duplicate /gene - acpP_1 acpP_2
+[16:11:36] Fixed 2 duplicate /gene - cysQ_1 cysQ_2
+[16:11:36] Fixed 2 duplicate /gene - gdhI_1 gdhI_2
+[16:11:36] Fixed 2 duplicate /gene - hemH_1 hemH_2
+[16:11:36] Fixed 7 duplicate /gene - btuD_1 btuD_2 btuD_3 btuD_4 btuD_5 btuD_6 btuD_7
+[16:11:36] Fixed 2 duplicate /gene - purF_1 purF_2
+[16:11:36] Fixed 2 duplicate /gene - mrp_1 mrp_2
+[16:11:36] Fixed 2 duplicate /gene - gyrB_1 gyrB_2
+[16:11:36] Fixed 2 duplicate /gene - polA_1 polA_2
+[16:11:36] Fixed 2 duplicate /gene - fabH_1 fabH_2
+[16:11:36] Fixed 2 duplicate /gene - lldD_1 lldD_2
+[16:11:36] Fixed 5 duplicate /gene - crt_1 crt_2 crt_3 crt_4 crt_5
+[16:11:36] Fixed 2 duplicate /gene - ald_1 ald_2
+[16:11:36] Fixed 4 duplicate /gene - entS_1 entS_2 entS_3 entS_4
+[16:11:36] Fixed 3 duplicate /gene - cypX_1 cypX_2 cypX_3
+[16:11:36] Fixed 2 duplicate /gene - groS_1 groS_2
+[16:11:36] Fixed 2 duplicate /gene - rdmC_1 rdmC_2
+[16:11:36] Fixed 4 duplicate /gene - ndhB_1 ndhB_2 ndhB_3 ndhB_4
+[16:11:36] Fixed 2 duplicate /gene - serS_1 serS_2
+[16:11:36] Fixed 4 duplicate /gene - smtB_1 smtB_2 smtB_3 smtB_4
+[16:11:36] Fixed 4 duplicate /gene - livF_1 livF_2 livF_3 livF_4
+[16:11:36] Fixed 2 duplicate /gene - rapA_1 rapA_2
+[16:11:36] Fixed 8 duplicate /gene - fabG_1 fabG_2 fabG_3 fabG_4 fabG_5 fabG_6 fabG_7 fabG_8
+[16:11:36] Fixed 3 duplicate /gene - surE_1 surE_2 surE_3
+[16:11:36] Fixed 2 duplicate /gene - hutI_1 hutI_2
+[16:11:36] Fixed 2 duplicate /gene - hcaC_1 hcaC_2
+[16:11:36] Fixed 2 duplicate /gene - rimM_1 rimM_2
+[16:11:36] Fixed 2 duplicate /gene - atpH_1 atpH_2
+[16:11:36] Fixed 2 duplicate /gene - resA_1 resA_2
+[16:11:36] Fixed 2 duplicate /gene - ppsC_1 ppsC_2
+[16:11:36] Fixed 2 duplicate /gene - COQ3_1 COQ3_2
+[16:11:36] Fixed 2 duplicate /gene - hsdA_1 hsdA_2
+[16:11:36] Fixed 3 duplicate /gene - nuoK_1 nuoK_2 nuoK_3
+[16:11:36] Fixed 2 duplicate /gene - pucD_1 pucD_2
+[16:11:36] Fixed 3 duplicate /gene - hcaB_1 hcaB_2 hcaB_3
+[16:11:36] Fixed 3 duplicate /gene - yjiB_1 yjiB_2 yjiB_3
+[16:11:36] Fixed 2 duplicate /gene - crcB_1 crcB_2
+[16:11:36] Fixed 4 duplicate /gene - menH_1 menH_2 menH_3 menH_4
+[16:11:36] Fixed 2 duplicate /gene - rcsC_1 rcsC_2
+[16:11:36] Fixed 2 duplicate /gene - coaD_1 coaD_2
+[16:11:36] Fixed 2 duplicate /gene - nuoH_1 nuoH_2
+[16:11:36] Fixed 3 duplicate /gene - acdA_1 acdA_2 acdA_3
+[16:11:36] Fixed 2 duplicate /gene - nqo4_1 nqo4_2
+[16:11:36] Fixed 2 duplicate /gene - nudL_1 nudL_2
+[16:11:36] Fixed 14 duplicate /gene - fgd_1 fgd_2 fgd_3 fgd_4 fgd_5 fgd_6 fgd_7 fgd_8 fgd_9 fgd_10 fgd_11 fgd_12 fgd_13 fgd_14
+[16:11:36] Fixed 5 duplicate /gene - uctC_1 uctC_2 uctC_3 uctC_4 uctC_5
+[16:11:36] Fixed 3 duplicate /gene - ndhI_1 ndhI_2 ndhI_3
+[16:11:36] Fixed 2 duplicate /gene - baiA_1 baiA_2
+[16:11:36] Fixed 2 duplicate /gene - echA8_1 echA8_2
+[16:11:36] Fixed 2 duplicate /gene - glnB_1 glnB_2
+[16:11:36] Fixed 3 duplicate /gene - fabG2_1 fabG2_2 fabG2_3
+[16:11:36] Fixed 4 duplicate /gene - caiD_1 caiD_2 caiD_3 caiD_4
+[16:11:36] Fixed 2 duplicate /gene - pyrC_1 pyrC_2
+[16:11:36] Fixed 2 duplicate /gene - pstB_1 pstB_2
+[16:11:36] Fixed 2 duplicate /gene - nfuA_1 nfuA_2
+[16:11:36] Fixed 2 duplicate /gene - ctaD_1 ctaD_2
+[16:11:36] Fixed 3 duplicate /gene - gloB_1 gloB_2 gloB_3
+[16:11:36] Fixed 94 colliding /gene names.
+[16:11:36] Adding /locus_tag identifiers
+[16:11:36] Assigned 1876 locus_tags to CDS and RNA features.
+[16:11:36] Writing outputs to /home/tomasc/genome_analysis_2021/analysis/prokka/
+
+--------------------- WARNING ---------------------
+MSG: Seq [AGHAALMF_00060]: Terminator codon inside CDS!
+---------------------------------------------------
+
+--------------------- WARNING ---------------------
+MSG: Seq [AGHAALMF_00856]: Terminator codon inside CDS!
+---------------------------------------------------
+[16:11:37] Generating annotation statistics file
+[16:11:37] Generating Genbank and Sequin files
+[16:11:37] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.err -i \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.fsa 2> /dev/null
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/errorsummary.val
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.dr
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.fixedproducts
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.ecn
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.val
+[16:11:42] Repairing broken .GBK output that tbl2asn produces...
+[16:11:42] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.gbf > \/home\/tomasc\/genome_analysis_2021\/analysis\/prokka\/binning_2\.gbk
+[16:11:42] Deleting unwanted file: /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.gbf
+[16:11:42] Output files:
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.log
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.fna
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.gff
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.faa
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.ffn
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.tbl
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.fsa
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.tsv
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.txt
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.gbk
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.sqn
+[16:11:42] /home/tomasc/genome_analysis_2021/analysis/prokka/binning_2.err
+[16:11:42] Annotation finished successfully.
+[16:11:42] Walltime used: 3.98 minutes
+[16:11:42] If you use this result please cite the Prokka paper:
+[16:11:42] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[16:11:42] Type 'prokka --citation' for more details.
+[16:11:42] Share and enjoy!
+[16:11:42] This is prokka 1.14.6
+[16:11:42] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:42] Homepage is https://github.com/tseemann/prokka
+[16:11:42] Local time is Wed Apr 28 16:11:42 2021
+[16:11:42] You are tomasc
+[16:11:42] Operating system is linux
+[16:11:42] You have BioPerl 1.007001
+[16:11:42] System has 16 cores.
+[16:11:42] Will use maximum of 8 cores.
+[16:11:42] Annotating as >>> Bacteria <<<
+[16:11:42] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_3.fa' contents.
+[16:11:42] Setting --locustag KGALEBIO from MD5 40a5eb282e0695c51cc24123cd3068b9
+[16:11:42] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:43] This is prokka 1.14.6
+[16:11:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:43] Homepage is https://github.com/tseemann/prokka
+[16:11:43] Local time is Wed Apr 28 16:11:43 2021
+[16:11:43] You are tomasc
+[16:11:43] Operating system is linux
+[16:11:43] You have BioPerl 1.007001
+[16:11:43] System has 16 cores.
+[16:11:43] Will use maximum of 8 cores.
+[16:11:43] Annotating as >>> Bacteria <<<
+[16:11:43] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_5.fa' contents.
+[16:11:43] Setting --locustag HJGIKBAE from MD5 13024bae21cc35fdac164a02ce0ab33c
+[16:11:43] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:43] This is prokka 1.14.6
+[16:11:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:43] Homepage is https://github.com/tseemann/prokka
+[16:11:43] Local time is Wed Apr 28 16:11:43 2021
+[16:11:43] You are tomasc
+[16:11:43] Operating system is linux
+[16:11:43] You have BioPerl 1.007001
+[16:11:43] System has 16 cores.
+[16:11:43] Will use maximum of 8 cores.
+[16:11:43] Annotating as >>> Bacteria <<<
+[16:11:43] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_8.fa' contents.
+[16:11:43] Setting --locustag JEDELGIA from MD5 3ede502a5e0539e2a620f573a36dc577
+[16:11:43] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:43] This is prokka 1.14.6
+[16:11:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:43] Homepage is https://github.com/tseemann/prokka
+[16:11:43] Local time is Wed Apr 28 16:11:43 2021
+[16:11:43] You are tomasc
+[16:11:43] Operating system is linux
+[16:11:43] You have BioPerl 1.007001
+[16:11:43] System has 16 cores.
+[16:11:43] Will use maximum of 8 cores.
+[16:11:43] Annotating as >>> Bacteria <<<
+[16:11:43] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_11.fa' contents.
+[16:11:43] Setting --locustag NAKHAGIM from MD5 7a41a0264a7726c42d123e2d5ed77c28
+[16:11:43] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:43] This is prokka 1.14.6
+[16:11:43] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:43] Homepage is https://github.com/tseemann/prokka
+[16:11:43] Local time is Wed Apr 28 16:11:43 2021
+[16:11:43] You are tomasc
+[16:11:43] Operating system is linux
+[16:11:43] You have BioPerl 1.007001
+[16:11:43] System has 16 cores.
+[16:11:43] Will use maximum of 8 cores.
+[16:11:43] Annotating as >>> Bacteria <<<
+[16:11:43] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_12.fa' contents.
+[16:11:43] Setting --locustag GEKKILLM from MD5 0e442556d693d503d58dbf862aa86f51
+[16:11:43] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:44] This is prokka 1.14.6
+[16:11:44] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:44] Homepage is https://github.com/tseemann/prokka
+[16:11:44] Local time is Wed Apr 28 16:11:44 2021
+[16:11:44] You are tomasc
+[16:11:44] Operating system is linux
+[16:11:44] You have BioPerl 1.007001
+[16:11:44] System has 16 cores.
+[16:11:44] Will use maximum of 8 cores.
+[16:11:44] Annotating as >>> Bacteria <<<
+[16:11:44] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_15.fa' contents.
+[16:11:44] Setting --locustag MCGJLEHK from MD5 6c035e140b0497a958fe2fcd746ea2d8
+[16:11:44] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:44] This is prokka 1.14.6
+[16:11:44] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:44] Homepage is https://github.com/tseemann/prokka
+[16:11:44] Local time is Wed Apr 28 16:11:44 2021
+[16:11:44] You are tomasc
+[16:11:44] Operating system is linux
+[16:11:44] You have BioPerl 1.007001
+[16:11:44] System has 16 cores.
+[16:11:44] Will use maximum of 8 cores.
+[16:11:44] Annotating as >>> Bacteria <<<
+[16:11:44] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_16.fa' contents.
+[16:11:44] Setting --locustag NBIPPJMI from MD5 7b299362357359e66dfc70826ed6f95e
+[16:11:44] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:44] This is prokka 1.14.6
+[16:11:44] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:44] Homepage is https://github.com/tseemann/prokka
+[16:11:44] Local time is Wed Apr 28 16:11:44 2021
+[16:11:44] You are tomasc
+[16:11:44] Operating system is linux
+[16:11:44] You have BioPerl 1.007001
+[16:11:44] System has 16 cores.
+[16:11:44] Will use maximum of 8 cores.
+[16:11:44] Annotating as >>> Archaea <<<
+[16:11:44] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_18.fa' contents.
+[16:11:44] Setting --locustag IKEMONCF from MD5 24e687cf5118b486efc898fa5d0953b1
+[16:11:44] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:44] This is prokka 1.14.6
+[16:11:44] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:44] Homepage is https://github.com/tseemann/prokka
+[16:11:44] Local time is Wed Apr 28 16:11:44 2021
+[16:11:44] You are tomasc
+[16:11:44] Operating system is linux
+[16:11:44] You have BioPerl 1.007001
+[16:11:44] System has 16 cores.
+[16:11:44] Will use maximum of 8 cores.
+[16:11:44] Annotating as >>> Bacteria <<<
+[16:11:44] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_20.fa' contents.
+[16:11:44] Setting --locustag HCLGIICM from MD5 1c5022c60d2e877e247cb3dc53ec3936
+[16:11:44] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:45] This is prokka 1.14.6
+[16:11:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:45] Homepage is https://github.com/tseemann/prokka
+[16:11:45] Local time is Wed Apr 28 16:11:45 2021
+[16:11:45] You are tomasc
+[16:11:45] Operating system is linux
+[16:11:45] You have BioPerl 1.007001
+[16:11:45] System has 16 cores.
+[16:11:45] Will use maximum of 8 cores.
+[16:11:45] Annotating as >>> Bacteria <<<
+[16:11:45] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_23.fa' contents.
+[16:11:45] Setting --locustag PJLKHANE from MD5 93541a7e3e253082e06b03dc158d8934
+[16:11:45] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:45] This is prokka 1.14.6
+[16:11:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:45] Homepage is https://github.com/tseemann/prokka
+[16:11:45] Local time is Wed Apr 28 16:11:45 2021
+[16:11:45] You are tomasc
+[16:11:45] Operating system is linux
+[16:11:45] You have BioPerl 1.007001
+[16:11:45] System has 16 cores.
+[16:11:45] Will use maximum of 8 cores.
+[16:11:45] Annotating as >>> Bacteria <<<
+[16:11:45] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_25.fa' contents.
+[16:11:45] Setting --locustag MLLFEAID from MD5 655fea2d6d03b9b3bce5144e49ac34b4
+[16:11:45] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
+[16:11:45] This is prokka 1.14.6
+[16:11:45] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[16:11:45] Homepage is https://github.com/tseemann/prokka
+[16:11:45] Local time is Wed Apr 28 16:11:45 2021
+[16:11:45] You are tomasc
+[16:11:45] Operating system is linux
+[16:11:45] You have BioPerl 1.007001
+[16:11:45] System has 16 cores.
+[16:11:45] Will use maximum of 8 cores.
+[16:11:45] Annotating as >>> Bacteria <<<
+[16:11:45] Generating locus_tag from '/home/tomasc/genome_analysis_2021/analysis/binning/binning_26.fa' contents.
+[16:11:45] Setting --locustag CAFKHDAE from MD5 caf41daea8d8217c63bbc12ef5370203
+[16:11:45] Folder '/home/tomasc/genome_analysis_2021/analysis/prokka' already exists! Please change --outdir or use --force
