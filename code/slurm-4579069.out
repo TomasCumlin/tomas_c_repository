@@ -1,0 +1,143 @@
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.49 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.23 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_2.fa
+[main] Real time: 0.854 sec; CPU: 0.765 sec
+/var/spool/slurmd/job4579069/slurm_script: line 18: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_2_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 20: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_2_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.32 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.16 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_3.fa
+[main] Real time: 0.577 sec; CPU: 0.524 sec
+/var/spool/slurmd/job4579069/slurm_script: line 25: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_3_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 27: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_3_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.39 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.19 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_5.fa
+[main] Real time: 0.682 sec; CPU: 0.615 sec
+/var/spool/slurmd/job4579069/slurm_script: line 32: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_5_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 34: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_5_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.41 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.20 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_8.fa
+[main] Real time: 0.704 sec; CPU: 0.641 sec
+/var/spool/slurmd/job4579069/slurm_script: line 39: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_8_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 41: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_8_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.03 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 1.06 seconds elapse.
+[bwa_index] Update BWT... 0.03 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.43 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_11.fa
+[main] Real time: 1.697 sec; CPU: 1.580 sec
+/var/spool/slurmd/job4579069/slurm_script: line 46: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_11_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 48: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_11_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.02 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.81 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.34 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_12.fa
+[main] Real time: 1.315 sec; CPU: 1.213 sec
+/var/spool/slurmd/job4579069/slurm_script: line 53: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_12_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 55: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_12_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.03 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 1.32 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.51 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_15.fa
+[main] Real time: 2.055 sec; CPU: 1.916 sec
+/var/spool/slurmd/job4579069/slurm_script: line 60: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_15_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 62: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_15_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.57 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.25 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_16.fa
+[main] Real time: 0.950 sec; CPU: 0.864 sec
+/var/spool/slurmd/job4579069/slurm_script: line 67: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_16_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 69: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_16_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.34 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.16 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_18.fa
+[main] Real time: 0.594 sec; CPU: 0.536 sec
+/var/spool/slurmd/job4579069/slurm_script: line 74: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_18_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 76: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_18_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.31 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.15 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_20.fa
+[main] Real time: 0.531 sec; CPU: 0.478 sec
+/var/spool/slurmd/job4579069/slurm_script: line 81: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_20_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 83: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_20_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.53 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.23 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_23.fa
+[main] Real time: 0.877 sec; CPU: 0.800 sec
+/var/spool/slurmd/job4579069/slurm_script: line 88: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_23_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 90: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_23_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.02 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.75 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.32 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_25.fa
+[main] Real time: 1.234 sec; CPU: 1.135 sec
+/var/spool/slurmd/job4579069/slurm_script: line 95: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_25_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 97: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_25_39.sam: No such file or directory
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.71 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.31 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index /home/tomasc/genome_analysis_2021/analysis/binning/binning_26.fa
+[main] Real time: 1.168 sec; CPU: 1.074 sec
+/var/spool/slurmd/job4579069/slurm_script: line 102: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_26_37.sam: No such file or directory
+/var/spool/slurmd/job4579069/slurm_script: line 104: /home/tomasc/genome_analysis_2021/analysis/mapping/bin_26_39.sam: No such file or directory
