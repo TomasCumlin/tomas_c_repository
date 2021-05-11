@@ -1,0 +1,21 @@
+The variable CONDA_ENVS_PATH contains the location of your environments. Set it to your project's environments folder if you have one.
+Otherwise, the default is ~/.conda/envs. Remember to export the variable with export CONDA_ENVS_PATH=/proj/...
+
+You may run "source conda_init.sh" to initialise your shell to be able
+to run "conda activate" and "conda deactivate" etc.
+Just remember that this command adds stuff to your shell outside the scope of the module system.
+
+REMEMBER TO USE 'conda clean -a' once in a while
+
+Lmod has detected the following error: Cannot load module "conda/latest"
+because these module(s) are loaded:
+   python
+
+While processing the following module(s):
+    Module fullname  Module Filename
+    ---------------  ---------------
+    conda/latest     /sw/mf/snowy/applications/conda/latest
+
+/var/spool/slurmd/job4697210/slurm_script: line 23: conda: command not found
+/var/spool/slurmd/job4697210/slurm_script: line 25: phylophlan_write_default_configs.sh: command not found
+/var/spool/slurmd/job4697210/slurm_script: line 29: phylophlan_metagenomic: command not found
