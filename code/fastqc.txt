@@ -1,4 +1,4 @@
-salloc -A g2021012 -M snowy -p core -n 2 -t 00:00:00
+salloc -A g2021012 -M snowy -p core -n 2 -t 01:00:00
 
 module load bioinfo-tools FastQC
 
