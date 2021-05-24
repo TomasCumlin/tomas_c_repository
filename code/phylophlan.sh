@@ -23,7 +23,6 @@ module load phylophlan
 ln -sf /sw/bioinfo/phylophlan/0.99/rackham/bin/data/*.bz2 /home/tomasc/genome_analysis_2021/analysis/phylophlan/outdir/data/
 ln -sf /sw/bioinfo/phylophlan/0.99/rackham/bin/data/ppaalns/ppa.aln.tar.bz2 /home/tomasc/genome_analysis_2021/analysis/phylophlan/outdir/data/ppaalns/
 ln -sf /sw/bioinfo/phylophlan/0.99/rackham/bin/data/ppafull.tax.txt /home/tomasc/genome_analysis_2021/analysis/outdir/data/
-#ln -sf /sw/apps/bioinfo/phylophlan/0.99/rackham/bin/taxcuration/ /home/tomasc/genome_analysis_2021/analysis/phylophlan/taxcuration
 
 cd /home/tomasc/genome_analysis_2021/analysis/phylophlan/outdir/
 
